@@ -1,6 +1,5 @@
 
- HackJunction
-Team Name TBC
+# HackJunction
 
 ## How to build server 
 1. `cd server`
