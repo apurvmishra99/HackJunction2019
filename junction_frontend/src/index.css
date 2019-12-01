@@ -1,0 +1,137 @@
+@import '~antd/dist/antd.css';
+
+@media only screen and (max-width: 640px) { 
+
+  .w3-padding {
+    padding: 8px 16px
+
+  }
+
+  .w3-content {
+    margin-left: auto;
+    margin-right: auto;
+    align-items:center;
+
+  }
+
+  .w3-padding-32 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .w3-row-padding {
+    padding: 0 8px;
+  }
+
+  .w3.col {
+    width: 100%;
+    float: left;
+    background-color: gray;
+  }
+
+  .recipe-card-overview {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 10px;
+    padding: 15px 10px 10px;
+    box-sizing: border-box;
+    border-bottom: '1px solid #e5e5e5';
+    border-right: '1px solid #e5e5e5'; 
+    border-left: '1px solid #e5e5e5';
+    width:100%;
+  }
+
+  .recipe-card-info {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+    align-items: center;
+    margin-bottom: -10px;
+    width: 100%;
+  }
+
+  .recipe-card-preparation-time {
+    font-size: 10px;
+  }
+
+  .w3-display-topleft {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: 600;
+  }
+
+  .w3-display-container {
+    position: relative;
+  }
+
+  .w3-top {
+    background: orange;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height:5%;
+  }
+
+  .w3-bar {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .w3-right {
+    margin-top:-5px;
+    float: right
+  }
+
+  Button {
+    align-items: center;
+  }
+
+  Header {
+    float: right;
+  }
+
+  .ant-menu {
+    width: 100%;
+    background-color: orange;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: black;
+  }
+
+  .InventoryList {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    padding: 5px;
+    font-size: .875em;
+    overflow-y: scroll;
+    align-items:center;
+  }
+
+  .modified-item:hover {
+    border-bottom: 2px solid transparent !important;
+  }
+
+
+  .InventoryList::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .InventoryList {
+    -ms-overflow-style: none;
+  }
+  
+   .SearchBar
+  {
+    top: 30px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height:5%;
+    text-align: center;
+  }
+  
+}
